@@ -12,7 +12,7 @@ class Television:
         """
         Initializes the Television with default settings:
         Power off, not muted, volume at MIN_VOLUME, and channel at MIN_CHANNEL.
-        All methods should only work if the television is powered on
+        All methods should only work if the Television is powered on
         Except the power on function itself
         """
         self.__status: bool = False
